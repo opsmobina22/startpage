@@ -1,0 +1,77 @@
+@import 'color';
+@import'space';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $fonts;
+}
+
+header {
+    background-color: $bg-primary;
+    padding: $p-5;
+
+    h1 {
+        color: $text-white;
+        text-align: center;
+    }
+     h2 {
+        padding: $p-5;
+        color: $text-white;
+        text-align: center;
+    }
+    a{
+        display: block;
+        color: $text-white;
+        padding: $padding-md;
+        width: 150px;
+        background-color: #333;
+        margin: $margin-md;
+       text-align: center;
+        &:hover{
+            background-color: #aaa;
+        }
+    }
+    
+    
+}
+main{
+   h2 {
+        padding: $p-5;
+        color: $text-dark;
+        text-align: start;
+        margin: $mb-2;
+    }  
+    p{
+        
+       padding-left: $p-5;
+        color: $text-dark;
+        text-align: start;
+    }
+   img{
+    padding: $p-5;
+   }
+   #cup{
+    background-color: $bg-gray;
+   }
+}
+.qty{
+    display: block;
+background-color: $bg-dark;
+color: $text-white;
+text-align: center;
+padding:$p-5;
+background-color: $bg-secondry;
+}
+footer{
+      
+      #icons{
+        background-color: $bg-gray;
+      padding:$p-5;
+      text-align: center;
+      }
+      p{
+        margin-top: $mt-2;
+      }
+
+}
